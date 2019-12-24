@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div style="margin-left:900px;width:100%;">
+<form action="../signout.php" method="POST">
+<a href="../quizhome.html">Home</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../contactus.html">Contact Us</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" align="right" value="Sign-out" name="signo"/>
+<br><br><br>
+<br>
+</form>
+</div>
+<div id="container">
+<center><br><br><br><br><br><div id="start"><br>Start Quiz!</div></center>
+<div id="quiz" style="display: none">
+<div id="question"></div>
+<div id="qImg"></div>
+<div id="choices">
+<div class="choice" id="A" onclick="checkAnswer('A')"></div><br><br>
+<div class="choice" id="B" onclick="checkAnswer('B')"></div><br><br>
+<div class="choice" id="C" onclick="checkAnswer('C')"></div><br><br>
+<div class="choice" id="D" onclick="checkAnswer('D')"></div>
+</div>
+<div id="timer">
+<div id="counter"></div>
+<div id="btimeGauge"></div>
+<div id="timeGauge"></div>
+</div>
+<div id="progress"></div>
+</div>
+<div id="scoreContainer" style="display: none"></div>
+</div>
+<script src="quiz1.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.card{ 
+	margin:150px 47px 30px 47px;
+	border:2px solid blue;
+	height:200px;
+	width:200px;
+	box-shadow:0 4px 4px 4px orange;
+	float:left;
+}
+
+.card:hover{
+	border:2px sloid red;
+	height:205px;
+	width:205px;
+	box-shadow:1px 5px 5px 5px green;
+}
+
+.smallcard{
+	margin:50px 40px 20px 40px;
+	border:2px solid black;
+	height:100px;
+	width:300px;
+	box-shadow:0 4px 4px 4px red;
+	float:top;
+}
+
+.smallcard:hover{
+	border:2px sloid red;
+	height:105px;
+	width:305px;
+	box-shadow:1px 5px 5px 5px violet;
+}
+.bcolor{
+	background-color:red;
+}
